@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A fan-made interactive website celebrating TWICE.">
+  <title>TWICE — Once, Twice, Forever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">TW<span>♥</span>CE</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#journey">Journey</a>
+      <a href="#music">Music</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow">JYP ENTERTAINMENT · 2015 — PRESENT</p>
+        <h1>ONCE,<br><em>TWICE</em>,<br>FOREVER.</h1>
+        <p class="hero-copy">Nine voices. One unforgettable story. Discover the music, members and milestones behind one of K-pop's most iconic girl groups.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#members">Meet the members ↓</a>
+          <a class="btn ghost" href="#about">Explore TWICE</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-ring"></div>
+        <div class="nine">9</div>
+        <div class="hero-card-label">MEMBERS<br><span>ONE HEART</span></div>
+      </div>
+      <div class="scroll-note">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">THE STORY</p>
+        <h2>More than a girl group.</h2>
+      </div>
+      <div class="intro-grid">
+        <div class="big-number">01</div>
+        <div>
+          <p class="lead">TWICE is a nine-member South Korean girl group formed by JYP Entertainment through the survival show <strong>SIXTEEN</strong>.</p>
+          <p>They officially debuted on October 20, 2015 with the mini album <strong>THE STORY BEGINS</strong> and the title track “Like OOH-AHH.” Their name carries a simple idea: touching people twice — once through the ears with great music and again through the eyes with outstanding performances.</p>
+          <div class="fact-row">
+            <div><strong>2015</strong><span>DEBUT</span></div>
+            <div><strong>9</strong><span>MEMBERS</span></div>
+            <div><strong>ONCE</strong><span>FANDOM</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section members-section" id="members">
+      <div class="section-heading centered">
+        <p class="eyebrow">MEET THE MEMBERS</p>
+        <h2>Nine colors, one TWICE.</h2>
+        <p>Click a member to reveal a little more.</p>
+      </div>
+
+      <div class="member-grid">
+        <article class="member-card" data-name="NAYEON" data-role="Lead Vocalist · Dancer" data-fact="The oldest member of TWICE and one of its main vocal colors.">
+          <div class="member-photo nay"><span>N</span></div>
+          <div class="member-info"><span>01</span><h3>NAYEON</h3><p>Vocalist · Dancer</p></div>
+        </article>
+        <article class="member-card" data-name="JEONGYEON" data-role="Vocalist" data-fact="Known for her warm vocal tone and thoughtful personality.">
+          <div class="member-photo jeong"><span>J</span></div>
+          <div class="member-info"><span>02</span><h3>JEONGYEON</h3><p>Vocalist</p></div>
+        </article>
+        <article class="member-card" data-name="MOMO" data-role="Main Dancer · Rapper · Vocalist" data-fact="A standout dancer whose precise performance style is a signature of TWICE.">
+          <div class="member-photo momo"><span>M</span></div>
+          <div class="member-info"><span>03</span><h3>MOMO</h3><p>Main Dancer</p></div>
+        </article>
+        <article class="member-card" data-name="SANA" data-role="Vocalist" data-fact="A Japanese member celebrated for her bright stage presence and charm.">
+          <div class="member-photo sana"><span>S</span></div>
+          <div class="member-info"><span>04</span><h3>SANA</h3><p>Vocalist</p></div>
+        </article>
+        <article class="member-card featured" data-name="JIHYO" data-role="Leader · Main Vocalist" data-fact="TWICE's leader and one of its powerhouse vocalists.">
+          <div class="member-photo jihyo"><span>J</span></div>
+          <div class="member-info"><span>05</span><h3>JIHYO</h3><p>Leader · Main Vocalist</p></div>
+        </article>
+        <article class="member-card" data-name="MINA" data-role="Main Dancer · Vocalist" data-fact="A Japanese-American member known for elegant dance lines and a graceful stage presence.">
+          <div class="member-photo mina"><span>M</span></div>
+          <div class="member-info"><span>06</span><h3>MINA</h3><p>Dancer · Vocalist</p></div>
+        </article>
+        <article class="member-card" data-name="DAHYUN" data-role="Rapper · Vocalist" data-fact="Known for her expressive personality, humor and bright rap delivery.">
+          <div class="member-photo dahyun"><span>D</span></div>
+          <div class="member-info"><span>07</span><h3>DAHYUN</h3><p>Rapper · Vocalist</p></div>
+        </article>
+        <article class="member-card" data-name="CHAEYOUNG" data-role="Main Rapper · Vocalist" data-fact="A creative member known for her distinctive rap tone and artistic interests.">
+          <div class="member-photo chae"><span>C</span></div>
+          <div class="member-info"><span>08</span><h3>CHAEYOUNG</h3><p>Main Rapper</p></div>
+        </article>
+        <article class="member-card" data-name="TZUYU" data-role="Lead Dancer · Vocalist · Maknae" data-fact="The youngest member of TWICE and a Taiwanese member.">
+          <div class="member-photo tzuyu"><span>T</span></div>
+          <div class="member-info"><span>09</span><h3>TZUYU</h3><p>Vocalist · Maknae</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">THE JOURNEY</p>
+        <h2>From “OOH-AHH”<br>to <em>THIS IS FOR.</em></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>2015</span><div><h3>THE STORY BEGINS</h3><p>TWICE debuts with “Like OOH-AHH.”</p></div></div>
+        <div class="timeline-item"><span>2016</span><div><h3>CHEER UP</h3><p>“CHEER UP” and “TT” establish TWICE's signature era of massive hits.</p></div></div>
+        <div class="timeline-item"><span>2017</span><div><h3>TWICETAGRAM</h3><p>The group's first full Korean album arrives with “LIKEY.”</p></div></div>
+        <div class="timeline-item"><span>2019</span><div><h3>FEEL SPECIAL</h3><p>TWICE enters a more mature and emotional chapter.</p></div></div>
+        <div class="timeline-item"><span>2020–22</span><div><h3>GLOBAL TWICE</h3><p>English releases and major international activities expand their reach.</p></div></div>
+        <div class="timeline-item"><span>2025</span><div><h3>THIS IS FOR</h3><p>TWICE celebrates a new decade with their fourth studio album.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section music" id="music">
+      <div class="section-heading centered">
+        <p class="eyebrow">LISTEN & REMEMBER</p>
+        <h2>Pick your TWICE era.</h2>
+      </div>
+      <div class="music-grid">
+        <button class="music-card active" data-song="Like OOH-AHH" data-year="2015"><span>01</span><strong>Like OOH-AHH</strong><small>2015 · THE STORY BEGINS</small></button>
+        <button class="music-card" data-song="CHEER UP" data-year="2016"><span>02</span><strong>CHEER UP</strong><small>2016 · PAGE TWO</small></button>
+        <button class="music-card" data-song="TT" data-year="2016"><span>03</span><strong>TT</strong><small>2016 · TWICEcoaster</small></button>
+        <button class="music-card" data-song="What Is Love?" data-year="2018"><span>04</span><strong>What Is Love?</strong><small>2018 · What is Love?</small></button>
+        <button class="music-card" data-song="FANCY" data-year="2019"><span>05</span><strong>FANCY</strong><small>2019 · FANCY YOU</small></button>
+        <button class="music-card" data-song="The Feels" data-year="2021"><span>06</span><strong>The Feels</strong><small>2021 · FORMULA OF LOVE</small></button>
+        <button class="music-card" data-song="Talk that Talk" data-year="2022"><span>07</span><strong>Talk that Talk</strong><small>2022 · BETWEEN 1&2</small></button>
+        <button class="music-card" data-song="THIS IS FOR" data-year="2025"><span>08</span><strong>THIS IS FOR</strong><small>2025 · THIS IS FOR</small></button>
+      </div>
+      <div class="now-playing" id="nowPlaying">
+        <div class="play-icon">▶</div>
+        <div><span>SELECTED ERA</span><strong id="songTitle">Like OOH-AHH</strong></div>
+        <small id="songYear">2015</small>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <blockquote>Once with great music.<br>Twice with great performance.</blockquote>
+      <p>— the idea behind the name TWICE</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">TW<span>♥</span>CE</div>
+    <p>Fan-made educational website · Not affiliated with JYP Entertainment.</p>
+    <a href="https://twice.jype.com/" target="_blank" rel="noopener">Official TWICE website ↗</a>
+  </footer>
+
+  <div class="modal" id="memberModal">
+    <div class="modal-box">
+      <button class="close" id="closeModal">×</button>
+      <p class="eyebrow">MEMBER SPOTLIGHT</p>
+      <h2 id="modalName">NAYEON</h2>
+      <p class="modal-role" id="modalRole"></p>
+      <p id="modalFact"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
